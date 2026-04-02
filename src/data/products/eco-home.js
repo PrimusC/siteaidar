@@ -56,7 +56,7 @@ export const ecoHomeProducts = [
     retailPrice: 660,
     partnerPrice: 330,
     pv: 0.2,
-    imageUrl: 'https://prais-catalog.famall-obs.ru/wp-content/uploads/2023/09/ПОДУДА-ФРУКТЫ.png',
+    imageUrl: 'https://prais-catalog.famall-obs.ru/wp-content/uploads/2023/09/ПОДУДА-ЗЕЛ-ЧАЙ.png',
     description: 'Бесфосфатная формула. Удаляет жир и загрязнения, натуральный аромат зелёного чая. Безопасен для кожи рук.',
   },
 ];
