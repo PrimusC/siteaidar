@@ -1,0 +1,86 @@
+export const brands = [
+  {
+    id: 1,
+    name: 'GREENLEAF',
+    description: 'Предлагает широкому кругу потребителей несколько направлений продуктов: товары для дома, уход за кожей, ароматы, декоративная косметика, бытовая химия, средства для гигиены полости рта, изделия из бамбука и хлопка, средства личной гигиены, товары для здоровья, средства для волос, детские товары по демократичным ценам.',
+    logoUrl: 'https://prais-catalog.famall-obs.ru/wp-content/uploads/2024/06/2310271459nsy7W7UceO-brands.png',
+  },
+  {
+    id: 2,
+    name: 'CARICH',
+    description: 'Специализируется на уходовой косметике ежедневного применения для кожи лица с натуральными ингредиентами и уникальными формулами. Продукция разработана для взрослых и детей, включая средства для ухода за волосами.',
+    logoUrl: 'https://prais-catalog.famall-obs.ru/wp-content/uploads/2024/06/КАРИЧИ.png',
+  },
+  {
+    id: 3,
+    name: 'KARDLI',
+    description: 'Широкий ассортимент товаров для уборки дома: средства для мытья посуды, стирки одежды, универсальной уборки. Также включает текстиль (полотенца, носки, тапочки), фильтры для воды.',
+    logoUrl: 'https://prais-catalog.famall-obs.ru/wp-content/uploads/2024/06/2311221725PvX8GwPgWU-brands.jpg',
+  },
+  {
+    id: 4,
+    name: 'PINK POINT',
+    description: 'Оригинальный китайский бренд, основанный в 2019 году. Специализируется на косметических товарах: базы под макияж, праймеры, консилеры, спреи для фиксации макияжа.',
+    logoUrl: 'https://prais-catalog.famall-obs.ru/wp-content/uploads/2024/06/2310271520bpBmHMUpXZ-brands.png',
+  },
+  {
+    id: 5,
+    name: 'NILRICH',
+    description: 'Создаёт обогащённые продукты питания и биологически активные добавки (БАДы): витамины, минералы, аминокислоты, антиоксиданты для поддержания здоровья.',
+    logoUrl: 'https://prais-catalog.famall-obs.ru/wp-content/uploads/2024/06/2310271647d0gk5pIXqA-brands.png',
+  },
+  {
+    id: 6,
+    name: 'iLIFE',
+    description: 'Разнообразная линейка средств личной гигиены (гели для душа, шампуни, кондиционеры), уход за телом, средства для уборки дома и стирки.',
+    logoUrl: 'https://prais-catalog.famall-obs.ru/wp-content/uploads/2024/06/2311221325wYOTaXDrdg-brands.jpg',
+  },
+  {
+    id: 7,
+    name: 'BLUE POINT',
+    description: 'Специализируется на средствах личной гигиены и ухода для взрослых и детей: средства для гигиены полости рта (зубные пасты, ополаскиватели, щётки), уход за волосами, средства для тела.',
+    logoUrl: 'https://prais-catalog.famall-obs.ru/wp-content/uploads/2024/06/2311221454O8fxq2Q72L-brands.jpg',
+  },
+  {
+    id: 8,
+    name: 'SEALUXE',
+    description: 'Премиальная уходовая косметика на основе морских компонентов. Профессиональный уход за кожей лица и тела с использованием экстрактов жемчуга и морских минералов.',
+    logoUrl: 'https://placehold.co/120x60/1c6802/ffffff?text=SEALUXE',
+  },
+  {
+    id: 9,
+    name: 'MARVISIA',
+    description: 'Линейка средств для ухода за кожей и волосами с инновационными формулами и натуральными компонентами.',
+    logoUrl: 'https://placehold.co/120x60/1c6802/ffffff?text=MARVISIA',
+  },
+  {
+    id: 10,
+    name: 'ZHONGGUI',
+    description: 'Премиальные средства по уходу за волосами и кожей головы на основе традиционных китайских рецептур.',
+    logoUrl: 'https://placehold.co/120x60/1c6802/ffffff?text=ZHONGGUI',
+  },
+  {
+    id: 11,
+    name: 'YIBEILE',
+    description: 'Функциональное питание и витаминные комплексы для поддержания здоровья и активного образа жизни.',
+    logoUrl: 'https://placehold.co/120x60/1c6802/ffffff?text=YIBEILE',
+  },
+  {
+    id: 12,
+    name: 'MAWEIS',
+    description: 'Средства для ухода за кожей тела и рук с натуральными растительными экстрактами.',
+    logoUrl: 'https://placehold.co/120x60/1c6802/ffffff?text=MAWEIS',
+  },
+  {
+    id: 13,
+    name: 'LEADPODI',
+    description: 'Инновационные средства для стирки и ухода за текстилем с экологичными формулами.',
+    logoUrl: 'https://placehold.co/120x60/1c6802/ffffff?text=LEADPODI',
+  },
+  {
+    id: 14,
+    name: 'JING HU XI',
+    description: 'Средства традиционной китайской медицины для здоровья и красоты.',
+    logoUrl: 'https://placehold.co/120x60/1c6802/ffffff?text=JING+HU+XI',
+  },
+];
