@@ -1,4 +1,4 @@
-import { MessageCircle, Phone, Send } from 'lucide-react';
+import { MessageCircle, Phone, Send, Smartphone } from 'lucide-react';
 import { client } from '../data/config';
 
 export default function ContactButtons({ variant = 'default' }) {
@@ -36,6 +36,20 @@ export default function ContactButtons({ variant = 'default' }) {
       >
         <Send className="h-5 w-5" />
         Написать в Telegram
+      </a>
+
+      <a
+        href={`https://max.im/${client.maxMessenger}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`${baseClass} ${
+          isHero
+            ? 'border-2 border-[#7B68EE] text-[#7B68EE] bg-transparent hover:bg-[#7B68EE] hover:text-white'
+            : 'bg-[#7B68EE] text-white shadow-md hover:bg-[#6A5ACD] hover:shadow-lg'
+        }`}
+      >
+        <Smartphone className="h-5 w-5" />
+        Написать в MAX
       </a>
 
       <a

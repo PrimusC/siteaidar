@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { MessageCircle, Phone, Send } from 'lucide-react';
+import { MessageCircle, Phone, Send, Smartphone } from 'lucide-react';
 import { client, siteInfo } from '../data/config';
 
 export default function Footer() {
@@ -47,6 +47,15 @@ export default function Footer() {
           >
             <Send className="h-4 w-4" />
             Telegram
+          </a>
+          <a
+            href={`https://max.im/${client.maxMessenger}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm transition-colors hover:bg-white/5 hover:text-[#7B68EE]"
+          >
+            <Smartphone className="h-4 w-4" />
+            MAX
           </a>
           <a
             href={`tel:${client.phone.replace(/\D/g, '')}`}

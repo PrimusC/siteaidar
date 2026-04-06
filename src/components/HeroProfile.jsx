@@ -1,4 +1,4 @@
-import { MessageCircle, Phone, Send } from 'lucide-react';
+import { MessageCircle, Phone, Send, Smartphone } from 'lucide-react';
 import { client } from '../data/config';
 
 export default function HeroProfile() {
@@ -41,6 +41,16 @@ export default function HeroProfile() {
           >
             <Send className="h-5 w-5" />
             Написать в Telegram
+          </a>
+
+          <a
+            href={`https://max.im/${client.maxMessenger}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex min-h-[48px] items-center justify-center gap-2 rounded-xl bg-[#7B68EE] px-6 py-3 text-base font-semibold text-white shadow-md transition-all hover:bg-[#6A5ACD] hover:shadow-lg active:scale-95"
+          >
+            <Smartphone className="h-5 w-5" />
+            Написать в MAX
           </a>
 
           <a
