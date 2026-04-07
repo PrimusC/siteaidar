@@ -1,4 +1,4 @@
-import HeroSection from '../components/HeroSection';
+import HeroProfile from '../components/HeroProfile';
 import CompanyInfo from '../components/CompanyInfo';
 import CategoryGrid from '../components/CategoryGrid';
 import BrandTabs from '../components/BrandTabs';
@@ -8,7 +8,7 @@ import { heroVideos } from '../data/config';
 export default function HomePage() {
   return (
     <>
-      <HeroSection />
+      <HeroProfile />
       <CompanyInfo />
       <CategoryGrid />
 
