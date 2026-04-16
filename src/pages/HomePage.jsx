@@ -3,7 +3,7 @@ import CompanyInfo from '../components/CompanyInfo';
 import CategoryGrid from '../components/CategoryGrid';
 import BrandTabs from '../components/BrandTabs';
 import ContactButtons from '../components/ContactButtons';
-import { heroVideos } from '../data/config';
+import { heroVideos, client } from '../data/config';
 
 export default function HomePage() {
   return (
@@ -42,10 +42,17 @@ export default function HomePage() {
 
       {/* Contact CTA */}
       <section className="bg-[#f9fafb] py-12 px-4">
-        <div className="mx-auto max-w-xl text-center">
-          <h2 className="text-2xl font-bold text-[#1e293b] mb-4">
+        <div className="mx-auto max-w-2xl text-center">
+          <h2 className="text-2xl font-bold text-[#1e293b] mb-6">
             СВЯЖИТЕСЬ СО МНОЙ
           </h2>
+          <div className="flex flex-col items-center mb-8">
+            <p className="text-[#1fc27c] text-xs sm:text-sm uppercase tracking-[0.2em] font-semibold mb-1">
+              {client.role}
+            </p>
+            <h3 className="text-xl font-bold text-[#1e293b]">{client.name}</h3>
+            <p className="text-[#64748b] text-sm">{client.city}, {client.region}</p>
+          </div>
           <p className="text-[#334155] mb-8 text-sm">
             Готовы сделать заказ или узнать подробности? Напишите мне удобным способом!
           </p>

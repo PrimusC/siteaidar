@@ -1,14 +1,13 @@
 export const client = {
+  role: 'Партнёр',
   name: 'Бахтигареева Гульнара',
   city: 'Сибай',
-  region: '',
-  avatarUrl: 'https://placehold.co/400x400/e8f5e9/2e7d32?text=Ваше+фото',
+  region: 'Республика Башкортостан',
   welcomeText:
     'Добро пожаловать в мой электронный каталог продукции! Здесь вы найдёте полный ассортимент эко-товаров для дома и всей семьи по демократичным ценам. Я помогу подобрать идеальные продукты именно для вас.',
   phone: '+7 (964) 950-94-52',
   whatsapp: '79649509452',
-  telegram: 'Aydar_Akhmetovv',
-  maxMessenger: '79649509452',
+  max: 'https://max.ru/u/f9LHodD0cOLGP-nqpAi4BuKK8erg4vvmlwW4K1f4AOd3rNeTOnkZe-QgD9w',
 };
 
 export const siteInfo = {

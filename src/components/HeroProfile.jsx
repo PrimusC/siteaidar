@@ -1,5 +1,4 @@
-import { MessageCircle, Phone, Send, Smartphone } from 'lucide-react';
-import { client, siteInfo } from '../data/config';
+import { client } from '../data/config';
 import ContactButtons from './ContactButtons';
 
 export default function HeroProfile() {
@@ -18,19 +17,17 @@ export default function HeroProfile() {
           МЛМ КОМПАНИЯ НОВОГО ФОРМАТА
         </h1>
 
-        {/* Avatar */}
-        <img
-          src={client.avatarUrl}
-          alt={client.name}
-          className="mx-auto mb-5 h-32 w-32 rounded-full border-4 border-emerald-400/30 object-cover shadow-lg sm:h-40 sm:w-40"
-        />
+        {/* Role */}
+        <p className="mb-1 text-xs sm:text-sm uppercase tracking-[0.2em] font-semibold text-[#7add6f]/80">
+          {client.role}
+        </p>
 
         {/* Name & city */}
         <h2 className="mb-1 text-2xl font-bold text-white sm:text-3xl">
           {client.name}
         </h2>
         <p className="mb-4 text-sm font-medium text-white/60">
-          г. {client.city}
+          {client.region ? `${client.region}, ` : ''}г. {client.city}
         </p>
 
         {/* Welcome text */}

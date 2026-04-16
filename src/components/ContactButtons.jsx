@@ -1,4 +1,4 @@
-import { MessageCircle, Phone, Send, Smartphone } from 'lucide-react';
+import { MessageCircle, Phone, MessageSquare } from 'lucide-react';
 import { client } from '../data/config';
 
 export default function ContactButtons({ variant = 'default' }) {
@@ -25,30 +25,16 @@ export default function ContactButtons({ variant = 'default' }) {
       </a>
 
       <a
-        href={`https://t.me/${client.telegram}`}
+        href={client.max}
         target="_blank"
         rel="noopener noreferrer"
         className={`${baseClass} ${
           isHero
-            ? 'border-2 border-[#0088cc] text-[#0088cc] bg-transparent hover:bg-[#0088cc] hover:text-white'
-            : 'bg-[#0088cc] text-white shadow-md hover:bg-[#0077b5] hover:shadow-lg'
+            ? 'border-2 border-[#7c3aed] text-[#7c3aed] bg-transparent hover:bg-[#7c3aed] hover:text-white'
+            : 'bg-[#7c3aed] text-white shadow-md hover:bg-[#6d28d9] hover:shadow-lg'
         }`}
       >
-        <Send className="h-5 w-5" />
-        Написать в Telegram
-      </a>
-
-      <a
-        href={`https://max.im/${client.maxMessenger}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={`${baseClass} ${
-          isHero
-            ? 'border-2 border-[#7B68EE] text-[#7B68EE] bg-transparent hover:bg-[#7B68EE] hover:text-white'
-            : 'bg-[#7B68EE] text-white shadow-md hover:bg-[#6A5ACD] hover:shadow-lg'
-        }`}
-      >
-        <Smartphone className="h-5 w-5" />
+        <MessageSquare className="h-5 w-5" />
         Написать в MAX
       </a>
 
